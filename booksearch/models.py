@@ -20,3 +20,6 @@ class Post (models.Model):
 
     def __str__(self):
         return self.title
+
+class Search(models.Model):
+    search = models.CharField(max_length=100)
